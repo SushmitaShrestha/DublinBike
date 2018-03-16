@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/about"
+    tools:context="com.example.admin.dublinbike.About">
+
+    <TextView
+        android:id="@+id/abt"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="190dp"
+        android:gravity="left"
+        android:paddingLeft="5dp"
+        android:text="This Application is build by Sushmita Shrestha using Android Studio Platform. I used udemy tutorial, stack overflow to build this Application."
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

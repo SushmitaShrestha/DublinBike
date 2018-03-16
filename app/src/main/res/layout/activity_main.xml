@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.dublinbike.MainActivity">
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Get JSON"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_gravity="center_horizontal"
+        android:onClick="getJSON"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="LIST OF DATA"
+        android:background="@color/colorPrimaryDark"
+        android:layout_gravity="center_horizontal"
+        android:onClick="parseJSON"
+        android:layout_marginTop="20dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JSON DATA FETCHED HERE"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textAppearance="?android:textAppearanceLarge"
+            />
+    </ScrollView>
+
+</LinearLayout>
